@@ -96,7 +96,26 @@ website:   	http://www.themepunch.com
 .revicon-layers-alt:before { content: '\e804'; } /* '' */
 .revicon-popup:before { content: '\e828'; } /* '' */
 
-							
+
+@media (min-width: 768px) {
+    .logo-image {
+      width: 190px;
+      height: auto;
+    }
+  }
+
+  /* For screens 767px and narrower */
+  @media (max-width: 767px) {
+    .logo-image {
+      width: 120px;
+      height: auto;
+    }
+
+	.titile-bg {
+		text-align: center;
+	}
+  }
+  
 
 /******************************
 	-	BASIC STYLES		-

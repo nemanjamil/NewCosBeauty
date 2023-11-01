@@ -173,10 +173,26 @@ header {
    #header end
   ========================================================================== */
 
+  @media (max-width: 767px) {
+    #removeDiv {
+      display: none;
+    }
+  }
+
+
+  
+  #thepremium img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
 
 /* ==========================================================================
 	Main slider
   ========================================================================== */
+
+  
 .sliderfull{
 	width:100%;
 	display:inline-block;
@@ -372,7 +388,7 @@ header {
   ========================================================================== */
 
 #parallax-2 {
-	background: url(../images/parallax-bg.jpg) 50% 0 no-repeat;
+	background: url(../images/lacube.png) 50% 0 no-repeat;
 	height: 640px;
 }
 .parallax {
@@ -520,7 +536,8 @@ header {
   ========================================================================== */
 
 #contact {
-	background: url(../images/footerbg.jpg) no-repeat left center #ccc;
+	/* background: url(../images/footerbg.jpg) no-repeat left center #ccc; */
+	background-color: #000;
 	padding: 100px 0px;
 }
 #contact h2 {
